@@ -1,6 +1,10 @@
 body {
 	background-color: #F0F0F0;
 }
+
+img{
+	float:left;
+}
 div.main {
 	box-shadow: 10px 10px 5px #D3D3D3;
     padding: 25px;
@@ -12,12 +16,13 @@ div.main {
 div.text {
 	margin-left: 250px;
 	margin-right: 50px;
+
 }
-/*this is a test*/
 
 .topnav {
   margin-left: 250px;
   margin-right: 50px;
+  margin-top: 85px;
   overflow: hidden;
   background-color: #333;
 }
