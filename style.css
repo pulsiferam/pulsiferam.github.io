@@ -5,23 +5,56 @@ body {
 img{
 	float:left;
 }
+
+.center{
+
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+	display: block;
+    padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	
+}
+
+div.contentimg {
+	float: right;
+	display: block;
+	width: 400px;
+	margin-top: 100px;
+}
 div.main {
 	box-shadow: 10px 10px 5px #D3D3D3;
     padding: 25px;
-    margin-left: 200px;
-	margin-right: 200px;
+    margin-left: 10%;
+	margin-right: 10%;
 	background-color: white;
+	height: 2000px
 }
 
 div.text {
+	float:left;
+	width: 50%;
+	margin-top: 25px;
 	margin-left: 250px;
 	margin-right: 50px;
 
 }
 
 .topnav {
-  margin-left: 250px;
-  margin-right: 50px;
+  margin-left: 17%;
+  margin-right: 0%;
   margin-top: 85px;
   overflow: hidden;
   background-color: #333;
@@ -33,6 +66,7 @@ div.text {
   display: block;
   color: #f2f2f2;
   text-align: center;
+  font-family: 'Pacifico', cursive;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -46,4 +80,13 @@ div.text {
 .topnav a.active {
     background-color: #7e0001;
     color: white;
+}
+
+.link{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-decoration: none;
+}
+
+.link a:hover{
+	color: darkgreen;
 }
