@@ -56,6 +56,11 @@ div.text {
 
 }
 
+div.social {
+	float: right;
+	margin-top: 50px;
+}
+
 .topnav {
   margin-left: 17%;
   margin-right: 0%;
