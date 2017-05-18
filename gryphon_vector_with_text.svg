@@ -30,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="410.99862"
+     inkscape:cx="383.21942"
      inkscape:cy="545.966"
      inkscape:document-units="mm"
      inkscape:current-layer="layer6"
@@ -457,7 +457,8 @@ aAkiiigCSEQRZUX/fwDrcj3Wye53KgAAAABJRU5ErkJggg==
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="pupil">
+     inkscape:label="pupil"
+     sodipodi:insensitive="true">
     <ellipse
        style="fill:#000000;stroke-width:0.26458332"
        id="path3794"

@@ -35,8 +35,10 @@ h1{
 div.contentimg {
 	float: right;
 	display: block;
-	width: 400px;
+	width: 25%;
 	margin-top: 100px;
+	position:relative;
+
 }
 div.main {
 	box-shadow: 10px 10px 5px #485D22;
