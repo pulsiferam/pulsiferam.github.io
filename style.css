@@ -6,10 +6,6 @@ body {
     background: linear-gradient(#6485D22, #9FC35F); /* Standard syntax (must be last) */
 }
 
-img{
-	float:left;
-	position:absolute;
-}
 
 img.dynamic{
 	width: 18vw;
@@ -19,6 +15,7 @@ img.dynamic{
 img.logo{
 	width: 9vw;
 	height: auto;
+	position: absolute;
 }
 
 a{
@@ -66,7 +63,7 @@ div.social {
 	float: right;
 	margin-top: 5vh;
 	margin-right: 2vw;
-	width:20vw;
+	width:18vw;
 	clear: right;
 }
 
