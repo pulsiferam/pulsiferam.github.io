@@ -17,7 +17,7 @@
    id="svg3706"
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="gryphon_vector_with_text.svg"
-   inkscape:export-filename="C:\Users\Ashleigh\Documents\GitHub\pulsiferam.github.io\gryphon_vector.png"
+   inkscape:export-filename="C:\Users\Ashleigh\Documents\GitHub\pulsiferam.github.io\gryphon_logo.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -33,7 +33,7 @@
      inkscape:cx="410.99862"
      inkscape:cy="545.966"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -453,5 +453,17 @@ aAkiiigCSEQRZUX/fwDrcj3Wye53KgAAAABJRU5ErkJggg==
          x="19.745829"
          y="244.9351"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#000000;stroke-width:0.55246902">Game Studios</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="pupil">
+    <ellipse
+       style="fill:#000000;stroke-width:0.26458332"
+       id="path3794"
+       cx="68.688271"
+       cy="115.52399"
+       rx="5.3481164"
+       ry="13.911331" />
   </g>
 </svg>
