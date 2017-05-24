@@ -87,9 +87,17 @@ div.gamelist{
 	width: 15vw;
 	height: 30vh;
 	float: left;
-	margin-top: 5vh;
+	margin-top: 3vh;
 	margin-left: 12vw;
 
+}
+
+div.about{
+	width: 15vw;
+	height: 30vh;
+	float: left;
+	margin-top: 3vh;
+	margin-left: 5vw;
 }
 
 
