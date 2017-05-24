@@ -6,8 +6,13 @@
 		
 		<script type="text/javascript" src="script.js"></script>
 	</head>
-	<body>
-	
+	<body onload="adjustCSS()">
+	<!-- <script>
+		function myFunction() {
+			document.getElementById("topnav").style.marginTop = "0px";
+		}
+	</script>
+	-->
 		<div id = "main" class="main">
 			<img class = "logo" src="gryphon_logo.png" alt="Tek & Code Studios">
 			
@@ -23,9 +28,9 @@
 			</div>
 			
 			<div class="text">
-				<h1>Contact Us</h1>
+				<h1 id = "myH1">Contact Us</h1>
 				<p>Do you have a question, suggestion, or need to contact us for any reason, send us an email!</p>
-				<p>tekandcode@gmail.com</p>
+				<p id = demo>tekandcode@gmail.com</p>
 			</div>
 			
 			<!-- Bottom Bar goes here -->
