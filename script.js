@@ -24,7 +24,7 @@ function adjustCSS(){
 		document.getElementById("button8").style.fontSize = "1.3vw";
 		document.getElementById("button9").style.fontSize = "1.3vw";
 	}
-	else(w > 935){
+	else if(w > 935){
 		document.getElementById("topnav").style.marginTop = "10vh";
 		document.getElementById("button1").style.width = "6vw";
 		document.getElementById("button2").style.width = "6vw";
