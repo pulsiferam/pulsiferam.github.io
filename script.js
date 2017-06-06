@@ -61,3 +61,30 @@ function adjustCSS(){
 		document.getElementById("button9").style.width = "4vw";
 	}
 }
+var myVar = setInterval(changeImg, 3000);
+var x = 0;
+function changeImg(){
+	x++;
+	
+	if(x > 4){x = 0;}
+	
+	if(x < 0){x = 4;}
+	
+	if(x == 0){
+		document.getElementById("myImage").src="red.gif";
+	}
+	
+	else if(x == 1){
+		document.getElementById("myImage").src="orange.gif";
+	}
+	
+	else if(x == 2){
+		document.getElementById("myImage").src="yellow.gif";
+	}
+	else if(x == 3){
+		document.getElementById("myImage").src="green.gif";
+	}
+	else{
+		document.getElementById("myImage").src="blue.gif";
+	}
+}

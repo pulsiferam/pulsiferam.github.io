@@ -18,6 +18,13 @@ img.logo{
 	position: absolute;
 }
 
+.img{
+	width: 40vw;
+	height: 20em;
+	display:block;
+	margin-left: 12vw;
+}
+
 a{
 	text-decoration: none;
 	font-size: 1.8vmin;
@@ -45,6 +52,7 @@ div.contentimg {
 	float: right;
 	width: 20vw;
 	margin-top: 10vh;
+	display:block;
 
 
 }
