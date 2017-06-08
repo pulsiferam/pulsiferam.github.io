@@ -59,6 +59,7 @@ function adjustCSS(){
 		document.getElementById("button7").style.width = "4vw";
 		document.getElementById("button8").style.width = "4vw";
 		document.getElementById("button9").style.width = "4vw";
+		document.getElementById("contentimg").style.display = 'none';
 	}
 }
 var myVar = setInterval(changeImg, 3000);
