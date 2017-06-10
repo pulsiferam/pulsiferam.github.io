@@ -17,6 +17,7 @@ function adjustCSS(){
 		
 		document.getElementById("main").style.marginLeft = "5vw";
 		document.getElementById("main").style.marginRight = "5vw";
+		document.getElementById("main").style.height = "150em";
 		
 		document.getElementById("social").style.cssFloat = "left";
 		document.getElementById("social").style.marginLeft = "12vw";
@@ -47,7 +48,7 @@ function adjustCSS(){
 		
 		document.getElementById("main").style.marginLeft = "10vw";
 		document.getElementById("main").style.marginRight = "10vw";
-		document.getElementById("main").style.height = "200vh";
+		document.getElementById("main").style.height = "100em";
 		
 		document.getElementById("text").style.width = "40vw";
 		
