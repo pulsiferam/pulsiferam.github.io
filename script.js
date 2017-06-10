@@ -23,21 +23,32 @@ function adjustCSS(){
 		document.getElementById("social").style.marginTop = "3vh";
 		document.getElementById("social").style.width = "30vw";
 		
-		document.getElementById("gamelist").style.width = "25vw";
+		document.getElementById("gamelist").style.width = "35vw";
 		document.getElementById("gamelist").style.marginLeft = "2.5vw";
 		
-		document.getElementById("about").style.width = "25vw";
+		document.getElementById("about").style.width = "35vw";
 		document.getElementById("about").style.marginLeft = "2.5vw";
-		document.getElementById("about").style.marginTop = "10vw";
+		document.getElementById("about").style.marginTop = "15vw";
 	}
-	else if(w > 935){
+	
+	if(w <= 550){
+		document.getElementById("gamelist").style.marginLeft = "5vw";
+		document.getElementById("social").style.width = "65vw";
+		document.getElementById("about").style.marginTop = "6vw";
+		document.getElementById("main").style.height = "300vh";
+	}
+	
+	if(w > 935){
 		document.getElementById("topnav").style.marginTop = "10vh";
 		document.getElementById("contentimg").style.cssFloat = "right";
 		document.getElementById("contentimg").style.marginLeft = "0vw";
 		document.getElementById("contentimg").style.width = "20vw";
 		document.getElementById("dynamicImg").style.width = "18vw";
+		
 		document.getElementById("main").style.marginLeft = "10vw";
 		document.getElementById("main").style.marginRight = "10vw";
+		document.getElementById("main").style.height = "200vh";
+		
 		document.getElementById("text").style.width = "40vw";
 		
 		document.getElementById("myImage").style.width = "40vw";
@@ -57,7 +68,7 @@ function adjustCSS(){
 		document.getElementById("about").style.marginTop = "3vh";
 		
 	}
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		//Adjusts the CSS of certain elements if the page is being loaded on a mobile device
 		document.getElementById("topnav").style.marginTop = "5vh";
 		
@@ -81,7 +92,7 @@ function adjustCSS(){
 		document.getElementById("button8").style.width = "4vw";
 		document.getElementById("button9").style.width = "4vw";
 		document.getElementById("contentimg").style.display = 'none';
-	}
+	}*/
 }
 var myVar = setInterval(changeImg, 3000);
 var x = 0;
