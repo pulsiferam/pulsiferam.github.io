@@ -78,9 +78,6 @@ p{
 	font-size: 18px;
 }
 
-p.legal{
-	position:absolute;
-}
 
 h1{
 	font-family: 'Pacifico', cursive;
@@ -97,11 +94,17 @@ h2{
 div.main {
 	box-shadow: 0.8vw 0.8vw 0.5vw #485D22;
     padding: 1.2vw;
-    margin-left: 10vw;
-	margin-right: 10vw;
+    margin-left: 10vmax;
+	margin-right: 10vmax;
 	background:rgba(255,255,250,0.85);
 	height: 200vh;
 	position:relative
+}
+
+p.legal{
+	float:left;
+	margin-top: 177vh;
+	position: absolute;
 }
 
 div.text {

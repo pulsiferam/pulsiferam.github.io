@@ -2,42 +2,60 @@ function adjustCSS(){
 	var w = window.outerWidth;
     var h = window.outerHeight;
 	
+	
 	if(w <= 935){
 		document.getElementById("topnav").style.marginTop = "5vh";
-		document.getElementById("button1").style.fontSize = "1.3vw";
-		document.getElementById("button2").style.fontSize = "1.3vw";
-		document.getElementById("button3").style.fontSize = "1.3vw";
-		document.getElementById("button4").style.fontSize = "1.3vw";
-		document.getElementById("button5").style.fontSize = "1.3vw";
-		document.getElementById("button6").style.fontSize = "1.3vw";
-		document.getElementById("button7").style.fontSize = "1.3vw";
-		document.getElementById("button8").style.fontSize = "1.3vw";
-		document.getElementById("button9").style.fontSize = "1.3vw";
-		document.getElementById("contentimg").style.cssFloat = "left";
 		
+		document.getElementById("contentimg").style.cssFloat = "left";
+		document.getElementById("contentimg").style.marginLeft = "25vw";
+		document.getElementById("contentimg").style.width = "40vw";
+		document.getElementById("dynamicImg").style.width = "40vw";
+		
+		document.getElementById("text").style.width = "65vw";
+		
+		document.getElementById("myImage").style.width = "65vw";
+		
+		document.getElementById("main").style.marginLeft = "5vw";
+		document.getElementById("main").style.marginRight = "5vw";
+		
+		document.getElementById("social").style.cssFloat = "left";
+		document.getElementById("social").style.marginLeft = "12vw";
+		document.getElementById("social").style.marginTop = "3vh";
+		document.getElementById("social").style.width = "30vw";
+		
+		document.getElementById("gamelist").style.width = "25vw";
+		document.getElementById("gamelist").style.marginLeft = "2.5vw";
+		
+		document.getElementById("about").style.width = "25vw";
+		document.getElementById("about").style.marginLeft = "2.5vw";
+		document.getElementById("about").style.marginTop = "10vw";
 	}
 	else if(w > 935){
 		document.getElementById("topnav").style.marginTop = "10vh";
-		document.getElementById("button1").style.width = "6vw";
-		document.getElementById("button2").style.width = "6vw";
-		document.getElementById("button3").style.width = "6vw";
-		document.getElementById("button4").style.width = "6vw";
-		document.getElementById("button5").style.width = "6vw";
-		document.getElementById("button6").style.width = "6vw";
-		document.getElementById("button7").style.width = "6vw";
-		document.getElementById("button8").style.width = "6vw";
-		document.getElementById("button9").style.width = "6vw";
-		document.getElementById("img").style.width = "9vw";
+		document.getElementById("contentimg").style.cssFloat = "right";
+		document.getElementById("contentimg").style.marginLeft = "0vw";
+		document.getElementById("contentimg").style.width = "20vw";
+		document.getElementById("dynamicImg").style.width = "18vw";
+		document.getElementById("main").style.marginLeft = "10vw";
+		document.getElementById("main").style.marginRight = "10vw";
+		document.getElementById("text").style.width = "40vw";
 		
-		document.getElementById("button1").style.fontSize = "1vw";
-		document.getElementById("button2").style.fontSize = "1vw";
-		document.getElementById("button3").style.fontSize = "1vw";
-		document.getElementById("button4").style.fontSize = "1vw";
-		document.getElementById("button5").style.fontSize = "1vw";
-		document.getElementById("button6").style.fontSize = "1vw";
-		document.getElementById("button7").style.fontSize = "1vw";
-		document.getElementById("button8").style.fontSize = "1vw";
-		document.getElementById("button9").style.fontSize = "1vw";
+		document.getElementById("myImage").style.width = "40vw";
+		
+		document.getElementById("social").style.cssFloat = "right";
+		document.getElementById("social").style.marginLeft = "0vw";
+		document.getElementById("social").style.marginTop = "0vh";
+		document.getElementById("social").style.width = "18vw";
+		
+		document.getElementById("myImage").style.width = "40vw";
+		
+		document.getElementById("gamelist").style.width = "15vw";
+		document.getElementById("gamelist").style.marginLeft = "12vw";
+		
+		document.getElementById("about").style.width = "15vw";
+		document.getElementById("about").style.marginLeft = "5vw";
+		document.getElementById("about").style.marginTop = "3vh";
+		
 	}
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		//Adjusts the CSS of certain elements if the page is being loaded on a mobile device
