@@ -95,7 +95,7 @@ function adjustCSS(){
 		document.getElementById("contentimg").style.display = 'none';
 	}*/
 }
-var myVar = setInterval(changeImg, 3000);
+var myVar = setInterval(changeImg, 5000);
 var x = 0;
 function changeImg(){
 	x++;
@@ -105,11 +105,11 @@ function changeImg(){
 	if(x < 0){x = 4;}
 	
 	if(x == 0){
-		document.getElementById("myImage").src="red.gif";
+		document.getElementById("myImage").src="uniclash_code.jpg";
 	}
 	
 	else if(x == 1){
-		document.getElementById("myImage").src="orange.gif";
+		document.getElementById("myImage").src="kyril_static_spritesheet_larger.png";
 	}
 	
 	else if(x == 2){
