@@ -69,31 +69,11 @@ function adjustCSS(){
 		document.getElementById("about").style.marginTop = "3vh";
 		
 	}
-	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		//Adjusts the CSS of certain elements if the page is being loaded on a mobile device
-		document.getElementById("topnav").style.marginTop = "5vh";
-		
-		document.getElementById("button1").style.cssFloat = "none";
-		document.getElementById("button2").style.cssFloat = "none";
-		document.getElementById("button3").style.cssFloat = "none";
-		document.getElementById("button4").style.cssFloat = "none";
-		document.getElementById("button5").style.cssFloat = "none";
-		document.getElementById("button6").style.cssFloat = "none";
-		document.getElementById("button7").style.cssFloat = "none";
-		document.getElementById("button8").style.cssFloat = "none";
-		document.getElementById("button9").style.cssFloat = "none";
-		
-		document.getElementById("button1").style.width = "4vw";
-		document.getElementById("button2").style.width = "4vw";
-		document.getElementById("button3").style.width = "4vw";
-		document.getElementById("button4").style.width = "4vw";
-		document.getElementById("button5").style.width = "4vw";
-		document.getElementById("button6").style.width = "4vw";
-		document.getElementById("button7").style.width = "4vw";
-		document.getElementById("button8").style.width = "4vw";
-		document.getElementById("button9").style.width = "4vw";
-		document.getElementById("contentimg").style.display = 'none';
-	}*/
+		document.getElementById("main").style.height = "300vh";
+
+	}
 }
 var myVar = setInterval(changeImg, 5000);
 var x = 0;
