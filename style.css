@@ -62,7 +62,7 @@ img.logo{
 
 img.slideshow{
 	width: 40vw;
-	height: 20em;
+	height: auto;
 	display:block;
 	margin-left: 12vw;
 	float:left;

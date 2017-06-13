@@ -75,7 +75,7 @@ function adjustCSS(){
 
 	}
 }
-var myVar = setInterval(changeImg, 5000);
+var myVar = setInterval(changeImg, 3000);
 var x = 0;
 function changeImg(){
 	x++;
@@ -85,7 +85,7 @@ function changeImg(){
 	if(x < 0){x = 4;}
 	
 	if(x == 0){
-		document.getElementById("myImage").src="uniclash_code.jpg";
+		document.getElementById("myImage").src="uniclash_code_slides.jpg";
 	}
 	
 	else if(x == 1){
@@ -93,12 +93,12 @@ function changeImg(){
 	}
 	
 	else if(x == 2){
-		document.getElementById("myImage").src="yellow.gif";
+		document.getElementById("myImage").src="uniclash_code_slides.jpg";
 	}
 	else if(x == 3){
-		document.getElementById("myImage").src="green.gif";
+		document.getElementById("myImage").src="kyril_static_spritesheet_larger.png";
 	}
 	else{
-		document.getElementById("myImage").src="blue.gif";
+		document.getElementById("myImage").src="uniclash_code_slides.jpg";
 	}
 }
