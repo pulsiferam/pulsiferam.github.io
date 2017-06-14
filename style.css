@@ -23,7 +23,7 @@ body {
 
 .topnav a {
   float: left;
-  width: 6vw;
+  width: 8vw;
   height: auto;
   display: block;
   color: #f2f2f2;
@@ -31,7 +31,7 @@ body {
   font-family: 'Pacifico', cursive;
   padding: 0.8vw 0.8vh;
   text-decoration: none;
-  font-size: 1.25vw;
+  font-size: 16px;
   overflow: hidden;
   }
 

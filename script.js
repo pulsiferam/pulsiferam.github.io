@@ -23,13 +23,13 @@ function adjustCSS(){
     var h = window.outerHeight;
 	
 	//Adjust for small size webpage
-	if(w <= 935){
+	if(w <= 1022){
 		//hideHeaderbar();
-		displayLogo();
-		displayTopnavSmall()
-		displayContentImgSmall();
 		displayMainSmall();
+		displayContentImgSmall();
 		displayAnnouncementSmall();
+		displayTopnavSmall();
+		displayLogoSmall();
 		displaySlideshowSmall();
 		displaySocialSmall();
 		displayGamelistSmall();
@@ -48,10 +48,10 @@ function adjustCSS(){
 	//Adjust for normal size webpage
 	if(w > 935){
 		//hideHeaderbar();
-		displayLogo();
-		displayTopnavDefault();
 		displayMainDefault();
 		displayContentImgDefault();
+		displayTopnavDefault();
+		displayLogoDefault();
 		displayAnnouncementDefault();
 		displaySlideshowDefault();
 		displaySocialDefault();
@@ -72,16 +72,52 @@ function hideHeaderbar(){
 function hideTopnav(){
 	document.getElementById("topnav").style.display = "none";}
 	
-function displayLogo(){
-	document.getElementById("logo").style.display = "block";}
+function displayLogoSmall(){
+	document.getElementById("logo").style.display = "block";
+	document.getElementById("logo").style.width = "75px";}
+	
+function displayLogoDefault(){
+	document.getElementById("logo").style.width = "9vw";}
 	
 function displayTopnavSmall(){
-	document.getElementById("topnav").style.marginTop = "5vh";
-	document.getElementById("topnav").style.display = "block";}
+	document.getElementById("topnav").style.marginTop = "100px";
+	document.getElementById("topnav").style.marginLeft = "1vw";
+	document.getElementById("topnav").style.display = "block";
+	document.getElementById("button4").innerHTML = "Blog";
+	document.getElementById("button1").style.width = "8vw";
+	document.getElementById("button2").style.width = "8vw";
+	document.getElementById("button3").style.width = "8vw";
+	document.getElementById("button4").style.width = "8vw";
+	document.getElementById("button5").style.width = "8vw";
+	document.getElementById("button6").style.width = "8vw";
+	document.getElementById("button7").style.width = "8vw";
+	document.getElementById("button8").style.width = "8vw";
+	}
 
 function displayTopnavDefault(){
 	document.getElementById("topnav").style.marginTop = "10vh";
-	document.getElementById("topnav").style.display = "block";}
+	document.getElementById("topnav").style.marginLeft = "12vw"
+	document.getElementById("topnav").style.display = "block";
+	document.getElementById("button4").innerHTML = "DevBlog";
+	
+	document.getElementById("button1").style.width = "6.5vw";
+	document.getElementById("button2").style.width = "6.5vw";
+	document.getElementById("button3").style.width = "6.5vw";
+	document.getElementById("button4").style.width = "6.5vw";
+	document.getElementById("button5").style.width = "6.5vw";
+	document.getElementById("button6").style.width = "6.5vw";
+	document.getElementById("button7").style.width = "6.5vw";
+	document.getElementById("button8").style.width = "6.5vw";
+	
+	document.getElementById("button1").style.fontSize = "18px";
+	document.getElementById("button2").style.fontSize = "18px";
+	document.getElementById("button3").style.fontSize = "18px";
+	document.getElementById("button4").style.fontSize = "18px";
+	document.getElementById("button5").style.fontSize = "18px";
+	document.getElementById("button6").style.fontSize = "18px";
+	document.getElementById("button7").style.fontSize = "18px";
+	document.getElementById("button8").style.fontSize = "18px";
+	}
 
 function displayContentImgSmall(){
 	document.getElementById("contentimg").style.cssFloat = "left";
