@@ -51,9 +51,10 @@ function adjustCSS(){
 		displayLogo();
 		displayTopnavDefault();
 		displayMainDefault();
-		displayAnnouncementDefault();
 		displayContentImgDefault();
+		displayAnnouncementDefault();
 		displaySlideshowDefault();
+		displaySocialDefault();
 		displayGamelistDefault();
 		displayAboutDefault();
 	}
