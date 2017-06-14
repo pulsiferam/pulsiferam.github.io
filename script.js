@@ -4,7 +4,9 @@ function adjustCSS(){
 	
 	
 	if(w <= 935){
+		document.getElementById("headerbar").style.display = "none";
 		document.getElementById("topnav").style.marginTop = "5vh";
+		document.getElementById("topnav").style.display = "block";
 		
 		document.getElementById("contentimg").style.cssFloat = "left";
 		document.getElementById("contentimg").style.marginLeft = "25vw";
@@ -30,16 +32,24 @@ function adjustCSS(){
 		document.getElementById("about").style.width = "35vw";
 		document.getElementById("about").style.marginLeft = "2.5vw";
 		document.getElementById("about").style.marginTop = "15vw";
+		document.getElementById("topnav").style.display = "block";
+		document.getElementById("logo").style.display = "block";
 	}
 	
-	if(w <= 550){
+	if(w <= 575){
 		document.getElementById("gamelist").style.marginLeft = "5vw";
 		document.getElementById("social").style.width = "65vw";
 		document.getElementById("about").style.marginTop = "6vw";
 		document.getElementById("main").style.height = "300vh";
+		document.getElementById("topnav").style.display = "none";
+		
+		document.getElementById("headerbar").style.display = "block";
+		document.getElementById("logo").style.display = "none";
 	}
 	
 	if(w > 935){
+		document.getElementById("topnav").style.display = "block";
+		document.getElementById("headerbar").style.display = "none";
 		document.getElementById("topnav").style.marginTop = "10vh";
 		document.getElementById("contentimg").style.cssFloat = "right";
 		document.getElementById("contentimg").style.marginLeft = "0vw";
@@ -67,11 +77,12 @@ function adjustCSS(){
 		document.getElementById("about").style.width = "15vw";
 		document.getElementById("about").style.marginLeft = "5vw";
 		document.getElementById("about").style.marginTop = "3vh";
+		document.getElementById("logo").style.display = "block";
 		
 	}
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		//Adjusts the CSS of certain elements if the page is being loaded on a mobile device
-		document.getElementById("main").style.height = "300vh";
+		document.getElementById("main").style.height = "300em";
 
 	}
 }
