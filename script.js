@@ -26,9 +26,9 @@ function adjustCSS(){
 	if(w <= 1022){
 		//hideHeaderbar();
 		displayMainSmall();
+		displayTopnavSmall();
 		displayContentImgSmall();
 		displayAnnouncementSmall();
-		displayTopnavSmall();
 		displayLogoSmall();
 		displaySlideshowSmall();
 		displaySocialSmall();
@@ -49,8 +49,8 @@ function adjustCSS(){
 	if(w > 935){
 		//hideHeaderbar();
 		displayMainDefault();
-		displayContentImgDefault();
 		displayTopnavDefault();
+		displayContentImgDefault();
 		displayLogoDefault();
 		displayAnnouncementDefault();
 		displaySlideshowDefault();
