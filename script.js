@@ -24,7 +24,7 @@ function adjustCSS(){
 	
 	//Adjust for small size webpage
 	if(w <= 935){
-		hideHeaderbar();
+		//hideHeaderbar();
 		displayLogo();
 		displayTopnavSmall()
 		displayContentImgSmall();
@@ -38,16 +38,16 @@ function adjustCSS(){
 	
 	//Adjust for tiny/mobile size webpage
 	if(w <= 575){
-		displayHeaderbar();
+		//displayHeaderbar();
 		displayMainTiny();
 		displayGamelistTiny();
 		displaySocialTiny();
-		hideTopnav();	
+		//hideTopnav();	
 	}
 	
 	//Adjust for normal size webpage
 	if(w > 935){
-		hideHeaderbar();
+		//hideHeaderbar();
 		displayLogo();
 		displayTopnavDefault();
 		displayMainDefault();
